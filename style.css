@@ -1,0 +1,208 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.black {
+    width: 100%;
+    height: 100%;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 80%;
+    height: 90%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.main > .circle {
+    position: absolute;
+    right: 23%;
+    top: 15%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, red, rgb(252, 124, 20), white, white);
+    filter: blur(19px);
+}
+
+.main > .top {
+    width: 85%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.top > .top_left{
+    width: 45%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_left > p {
+    font-size: 10px;
+    font-weight: 300;
+    font-family: 'montserrat';
+}
+
+.top_left > .top_text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_text > p {
+    font-size: 10px;
+    font-weight: 300;
+    font-family: 'montserrat';
+}
+
+.top > .top_right{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_right > i {
+    font-weight: 300;
+    color: white;
+}
+
+.main > .arrow{
+    position: absolute;
+    top: 63%;
+    left: 21.5%;
+    height: 100px;
+    width: 150px;
+    background-image: url(./arrow.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main > .asset {
+    position: absolute;
+    top: 45%;
+    right: 7%;
+    height: 100px;
+    width: 100px;
+    background-image: url(./asset.png);
+    background-position: center;
+    background-size: cover;
+} 
+
+.main > #otherdiv{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+#otherdiv > .grid{
+    height: 100%;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+ .main > .center {
+    width: 85%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main > .text_left_bottom{
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.text_left_bottom > p {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #d3d1cfe7;
+}
+
+.center > .img {
+    height: 55%;
+    width: 47%;
+    opacity: 0.6;
+    background-image: url(https://images.unsplash.com/photo-1571955553919-9195a8260398?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=991&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main > #ha{
+    color: #d3d1cfe7;
+    font-size: 190px;
+    font-family: 'playfair display';
+    font-weight: 300;
+    position: absolute;
+    top: 14%;
+    left: 24%;
+}
+
+.main > #hb{
+    color: #d3d1cfe7;
+    font-size: 190px;
+    font-family: 'playfair display';
+    font-weight: 300;
+    position: absolute;
+    top: 38%;
+    left: 45%;
+}
+
+.main > .text_right_bottom{
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    top: 70%;
+    right: 2%;
+}
+
+.text_right_bottom > p {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #d3d1cfe7;
+}
+
+.main > .bottom {
+    width: 85%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+} 
+
+.bottom > p {
+    color: #d3d1cfe7;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 10px;
+    font-family: 'montserrat';
+} 
