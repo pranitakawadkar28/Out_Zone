@@ -35,7 +35,7 @@ html, body{
     height: 130px;
     width: 130px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, red, rgb(252, 124, 20), white, white);
+    background: linear-gradient(to top, white, white, orange, red);
     filter: blur(19px);
 }
 
@@ -109,6 +109,19 @@ html, body{
     background-position: center;
     background-size: cover;
 } 
+
+#round {
+    animation: rotation 15s linear 1.5s infinite both;
+}
+
+@keyframes rotation{
+    from{
+        transform : rotate(0deg)
+    }
+    to{
+        transform : rotate(359deg)
+    }
+}
 
 .main > #otherdiv{
     display: flex;
